@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Medicien</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="brand">
+            <!-- <img src="" alt=""> -->
+            <h2>Logo</h2>
+        </div>
+        <div class="middleNav">
+            <input type="text" placeholder="Search medician...">
+        </div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./register.html">Register</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./offer.html">Offers</a></li>
+            <li><a href="./cart.html">Cart</a></li>
+            <li><a href="./about.html">About</a></li>
+
+        </ul>
+    </nav>
+    <div class="empty-cart">
+        <div class=" mx-auto order w-1/2 py-12">
+            <div class="flex items-center border-b border-gray-300 pb-4">
+                <h1 class="ml-2 font-bold text-lg">Order summary</h1>
+            </div>
+            <div class="pizza-list">
+                <div class="flex items-center py-4">
+                    <img src="/img/400w-x3F7x0Sp6zY.webp" alt="pizza" class="w-24" />
+                    <div class="ml-4 flex-1">
+                        <h1>Medician-1</h1>
+                    </div>
+                    <span class="flex-1">1 Pcs</span>
+                    <span class="font-bold text-lg">₹ 30</span>
+                </div>
+                <div class="flex items-center py-4">
+                    <img src="/img/400w-VQO-Xwo24nU.webp" alt="pizza" class="w-24" />
+                    <div class="ml-4 flex-1">
+                        <h1>Medician-2</h1>
+                    </div>
+                    <span class="flex-1">1 Pcs</span>
+                    <span class="font-bold text-lg">₹ 25</span>
+                </div>
+            </div>
+            <hr />
+            <div class="text-right ">
+                <div class="my-4 ">
+                    <span class="font-bold">Total Amount: </span>
+                    <span class="text-yellow">₹ 55</span>
+                </div>
+                <form action="">
+                    <div class="">
+                        <input type="text" placeholder="Enter your phone " class="border border-gray-300 px-2 py-1 w-1/2 mb-4" />
+                    </div>
+                    <div class="">
+                        <input type="text" placeholder="Enter your address" class="border border-gray-300 px-2 py-1 w-1/2 mb-4" />
+                    </div>
+                </form>
+                <div class="">
+                    <button class=" btn py-1 px-4 text-dark text-lg rounded-full mt-4">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javacript" src="../js/app.js"></script>
+</body>
+</html>
